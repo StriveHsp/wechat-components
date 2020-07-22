@@ -1,0 +1,40 @@
+/* 这里的样式只应用于这个自定义组件 */
+.header_fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.header_absolute {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
+		width: 100%;
+		background-color: transparent !important;
+	}
+
+.header_container {
+	display: flex;
+	height: 2.75rem;
+	line-height: 2.75rem; 
+}
+
+.header_container .header_left_box {
+	padding: 0 0.625rem;
+	display: flex;
+}
+.header_container .header_left_box .goback_icon {
+	width: 1.625rem;
+	height: 1.625rem;
+	margin-top: 0.5625rem;
+}
+.header_container .header_title {
+	flex-grow: 2; 
+	text-align: center;
+}
+.header_container .header_right_info{
+	flex-grow: 1;
+}
