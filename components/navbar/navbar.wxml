@@ -1,7 +1,6 @@
-<!--index.wxml-->
 <view class="wrapper">
 	<!-- 默认 navbar -->
-	<view class="header_fixed">
+	<view class="header_fixed backgroundColor">
 		<view class="header_container" style="padding-top: {{statusBarHeight}}px;">
 			<!-- 左侧按钮，可以是返回按钮、签到按钮、切换地址按钮。按钮这里先区分返回按钮还是其他按钮。 -->
 			<view class="header_left_box" bindtap="onBackPage">

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view>
+  <navbar></navbar>
+  <view style="height: 50rem;margin-top: {{marginTop}}px;padding: 10px;">
+  	<image class="image" src="../../../static/1.png" mode="widthFix"></image>
+  	<image class="image" src="../../../static/2.png" mode="widthFix"></image>
+  	<image class="image" src="../../../static/3.png" mode="widthFix"></image>
+  	<image class="image" src="../../../static/4.png" mode="widthFix"></image>
+  	<image class="image" src="../../../static/5.png" mode="widthFix"></image>
+  	<image class="image" src="../../../static/6.png" mode="widthFix"></image>
+  </view>
+</view>

@@ -12,19 +12,13 @@ Component({
 		// 导航栏高度
 		statusBarHeight: 0,
   },
-	lifetimes: {
-		attached(){
-			// 导航栏高度
-			this.setData({
-				statusBarHeight: 	wx.getSystemInfoSync().statusBarHeight
-			})
-		}
+	created(){
+		
 	},
-  methods: {
-    //返回上一页面
-    onBackPage() {
-			console.log(1)
-			wx.navigateBack();
-    },
-  }
+	attached(){
+		// 导航栏高度
+		this.setData({
+			statusBarHeight: 	wx.getSystemInfoSync().statusBarHeight
+		})
+	}
 })

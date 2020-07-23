@@ -2,6 +2,8 @@
 //获取应用实例
 const app = getApp()
 
+const baseNavbarUrl = "../navbarDemo"
+
 Page({
   data: {
 		marginTop: 0
@@ -12,9 +14,8 @@ Page({
 		})
 	},
 	onGoDemoOne(){
-		console.log(1)
 		wx.navigateTo({
-			url: "../demo1/index"
+			url: baseNavbarUrl + "/demo1/demo1"
 		});
 	},
 })

@@ -1,6 +1,5 @@
 <!--index.wxml-->
 <view>
-	<!-- <navbar></navbar> -->
 	<view style="height: 50rem;margin-top: {{marginTop}}px;padding: 1.25rem;">
 		<button bindtap="onGoDemoOne">
 			默认 Navbar 例子

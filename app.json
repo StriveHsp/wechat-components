@@ -1,13 +1,8 @@
 {
-  "usingComponents": {
-    "navbar": "/components/navbar/navbar"
-  },
   "pages": [
     "pages/index/index",
-    "pages/stores/index",
-    "pages/found/index",
-    "pages/my/index",
-    "pages/demo1/index"
+    "pages/my/my",
+		"pages/navbarDemo/demo1/demo1"
   ],
   "tabBar": {
     "color": "#333333",
@@ -22,19 +17,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/stores/index",
-        "iconPath": "static/tab/icon_my.png",
-        "selectedIconPath": "static/tab/icon_my_c.png",
-        "text": "门店"
-      },
-      {
-        "pagePath": "pages/found/index",
-        "iconPath": "static/tab/icon_my.png",
-        "selectedIconPath": "static/tab/icon_my_c.png",
-        "text": "发现"
-      },
-      {
-        "pagePath": "pages/my/index",
+        "pagePath": "pages/my/my",
         "iconPath": "static/tab/icon_my.png",
         "selectedIconPath": "static/tab/icon_my_c.png",
         "text": "我的"
